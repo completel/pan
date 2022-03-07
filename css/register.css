@@ -1,0 +1,129 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 3px solid #c81523;
+}
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    /* background-color: pink; */
+    margin: 50px  auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .ipt {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.error {
+    color: #c81523;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url('../images/error.png') no-repeat;
+    margin-top: -2px;
+}
+.success {
+    color: #096;
+}
+.success_icon {
+    background: url('../images/success.png') no-repeat;
+}
+.safe {
+    /* width: 330px; */
+    padding-left: 165px;
+}
+.safe em {
+    padding: 0 12px;
+    /* background-color: pink; */
+    color: #fff;
+}
+.rou {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 100px;
+}
+.agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #cb1623;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px 0 0 70px;
+    cursor: pointer;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+.copyright_links p {
+    margin-top: 20px;
+}
+.copyright_links p span {
+    margin: 0 8px;
+}
+.copyright_info p {
+    position: relative;
+    margin-top: 5px;
+}
+.copyright_info p::after {
+    content: '湖南怀化麻阳';
+    position: absolute;
+    top: 35px;
+    right: 50%;
+}
